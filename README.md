@@ -50,7 +50,6 @@ plt.imshow(inverted_image, cmap='gray')
 plt.axis('off')
 plt.show()
 ```
-![Ters Görüntü](Images/download.png)
 
 ### Binarizasyon
 ```python
