@@ -50,7 +50,7 @@ plt.imshow(inverted_image, cmap='gray')
 plt.axis('off')
 plt.show()
 ```
-![Ters Görüntü](Images/Gorsel1.jpg)
+![Ters Görüntü](Images/download.png)
 
 ### Binarizasyon
 ```python
@@ -59,6 +59,8 @@ plt.imshow(im_bw, cmap='gray')
 plt.axis('off')
 plt.show()
 ```
+![Ters Görüntü](Images/im_bw.png)
+
 ### Gürültü Giderme
 ```python
 def noise_removal(image):
@@ -74,7 +76,6 @@ plt.imshow(no_noise, cmap='gray')
 plt.axis('off')
 plt.show()
 ```
-
 ### Font İnceltilmesi ve Kalınlaştırılması
 ```python
 def thin_font(image):
@@ -88,6 +89,8 @@ plt.imshow(eroded_image, cmap='gray')
 plt.axis('off')
 plt.show()
 ```
+![Ters Görüntü](Images/eroded.png)
+
 ### OCR ile Metin Tespiti
 ```python
 import easyocr
@@ -117,4 +120,5 @@ Grafiklerle görselleştirilmiş sonuçlar için aşağıdaki grafikler incelene
 - **Bar Grafiği**
 - **Pasta Grafiği**
 - **Çizgi Grafiği**
-
+  
+![Ters Görüntü](grafik.png)
