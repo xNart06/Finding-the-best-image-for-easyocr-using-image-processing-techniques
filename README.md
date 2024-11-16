@@ -58,7 +58,7 @@ plt.imshow(im_bw, cmap='gray')
 plt.axis('off')
 plt.show()
 ```
-![Ters Görüntü](Images/im_bw.png)
+![Binary](Images/im_bw.png)
 
 ### Gürültü Giderme
 ```python
@@ -88,7 +88,7 @@ plt.imshow(eroded_image, cmap='gray')
 plt.axis('off')
 plt.show()
 ```
-![Ters Görüntü](Images/eroded.png)
+![Font](Images/eroded.png)
 
 ### OCR ile Metin Tespiti
 ```python
@@ -120,4 +120,4 @@ Grafiklerle görselleştirilmiş sonuçlar için aşağıdaki grafikler incelene
 - **Pasta Grafiği**
 - **Çizgi Grafiği**
   
-![Ters Görüntü](grafik.png)
+![Grafik](Images/grafik.png)
