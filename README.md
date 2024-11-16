@@ -50,6 +50,8 @@ plt.imshow(inverted_image, cmap='gray')
 plt.axis('off')
 plt.show()
 ```
+![Ters Görüntü](Images/Gorsel1.jpg)
+
 ### Binarizasyon
 ```python
 thersh, im_bw = cv2.threshold(inverted_image, 80, 200, cv2.THRESH_BINARY)
